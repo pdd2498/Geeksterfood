@@ -41,6 +41,9 @@
   align-items: center;
   font-weight: 500;
 }
+.parentNave{
+  height: 80px;
+}
 .nave{
   position: fixed;
   z-index: 12;
@@ -213,4 +216,14 @@ i{
 }
 #blurcolor{
   color: #0d9488;
+}
+.propslo{
+
+  margin: 80px;
+  padding: 40px;
+  background-color: blueviolet;
+}
+.fontsizein{
+  font-size:x-large;
+  font-weight: 700;
 }

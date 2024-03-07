@@ -3,12 +3,20 @@ import './App.css';
 import Boxes from './component/Boxes';
 import Footer from './component/Footer';
 import NaveBar from './component/NaveBar';
-
+import Props from './component/Props';
 function App() {
   return (
     <div className="App">
       <NaveBar/>
-      <div className="hero">
+      <Props text = "aerh piargoi gpoiehgopia ehheop ihepheho feoihovopei oihv osh e" name = "oairh poi rhoihr"/>
+      <Props text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos incidunt aliquam eveniet nam ipsam atque officia nesciunt fugiat quo placeat, repellendus quae autem, dolor alias!" name="P.T Barmer" />
+      <Props text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, culpa molestiae et repellendus laborum asperiores voluptatem provident error deleniti est quas illo mollitia omnis esse sit nisi quaerat tenetur. Voluptas dolorem soluta doloribus facere dignissimos dolorum nostrum nobis, saepe natus ut quod reprehenderit mollitia aliquid delectus exercitationem, omnis officia fuga?" name="kai po che" />
+      <Props text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, culpa molestiae et repellendus laborum asperiores voluptatem provident error deleniti est quas illo mollitia omnis esse sit nisi quaerat tenetur. Voluptas dolorem soluta doloribus facere dignissimos dolorum nostrum nobis," name="jadu sahu"/>
+      <Props text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, culpa molestiae et repellendus laborum asperiores voluptatem provident error deleniti est quas illo mollitia omnis esse sit nisi quaerat tenetur. Voluptas dolorem soluta doloribus facere dignissimos dolorum nostrum nobis, saepe natus ut quod reprehenderit mollitia aliquid delectus exercitationem, omnis officia fuga?" name="jb oiwr" />
+      <Props text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, culpa molestiae et repellendus laborum asperiores voluptatem provident error deleniti est quas illo mollitia omnis esse sit nisi quaerat tenetur. Voluptas dolorem soluta doloribus facere dignissimos dolorum nostrum nobis, saepe natus ut quod reprehenderit mollitia aliquid delectus exercitationem, omnis officia fuga?" name="bvub din" />
+      <Props text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, culpa molestiae et repellendus laborum asperiores voluptatem provident error deleniti est quas illo mollitia omnis esse sit nisi quaerat tenetur. Voluptas dolorem soluta doloribus facere dignissimos dolorum nostrum nobis, saepe natus ut quod reprehenderit mollitia aliquid delectus exercitationem, omnis officia fuga?" name="kjsd ddj" />
+      <Props text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, culpa molestiae et repellendus laborum asperiores voluptatem provident error deleniti est quas illo mollitia omnis esse sit nisi quaerat tenetur. Voluptas dolorem soluta doloribus " name="S.D. shav" />
+      {/* <div className="hero">
         <div className='side'>
           <span className='fontLarg'>Let us find your</span>
           <span className='fontLarg fontColor'>Forever Food.</span>
@@ -52,7 +60,7 @@ function App() {
         <Boxes text='kuch to log khenge Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quisquam, esse ratione nobis iusto, quos cupiditate laudantium modi commodi asperiores illo sunt nihil quia? Ab!kuch to log khenge Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quisquam, esse ratione nobis iusto,!' />
 
         <Boxes text='kuch to log khenge Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quisquam, esse ratione nobis iusto, quos cupiditate laudantium modi commodi asperiores illo sunt nihil quia? Ab!kuch to log khenge Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quisquam, esse ratione nobis iusto, quos cupiditate laudantium modi commodi asperiores illo sunt nihil quia?' />
-      </div>
+      </div> */}
       <div className="forth">
         <Footer/>
       </div>
