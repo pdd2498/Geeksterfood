@@ -1,13 +1,28 @@
 
 import './App.css';
-import Boxes from './component/Boxes';
-import Footer from './component/Footer';
-import NaveBar from './component/NaveBar';
-import Props from './component/Props';
+// import Boxes from './component/Boxes';
+// import Footer from './component/Footer';
+// import NaveBar from './component/NaveBar';
+// import Props from './component/Props';
+import ColorBox from './component/ColorBox';
 function App() {
   return (
     <div className="App">
-      <NaveBar/>
+      <div className='colorParent'>
+          <ColorBox color = "black" cod = "#FF6663" name = "pink"/>
+          <ColorBox color = "black" cod = "#333333" name = "Gray"/>
+          <ColorBox color = "black" cod = "#000000" name = "Black"/>
+          <ColorBox color = "black" cod = "#38BB14" name = "GREEN"/>
+          <ColorBox color = "black" cod = "#C90B0B" name = "RED"/>
+          <ColorBox color = "black" cod = "#FF8000" name = "ORANGE"/>
+          <ColorBox color = "black" cod = "#FFF500" name = "YELLOW"/>
+          <ColorBox color = "black" cod = "#7E41A2" name = "PURPLE"/>
+          <ColorBox color = "black" cod = "#C14911" name = "BROUNE"/>
+          <ColorBox color = "black" cod = "#CCCCCC" name = "LIGHT GRAY"/>
+          <ColorBox color = "black" cod = "#FF6663" name = "pink"/>
+          <ColorBox color = "black" cod = "#FF6663" name = "pink"/>
+      </div>
+      {/* <NaveBar/>
       <Props text = "aerh piargoi gpoiehgopia ehheop ihepheho feoihovopei oihv osh e" name = "oairh poi rhoihr"/>
       <Props text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos incidunt aliquam eveniet nam ipsam atque officia nesciunt fugiat quo placeat, repellendus quae autem, dolor alias!" name="P.T Barmer" />
       <Props text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, culpa molestiae et repellendus laborum asperiores voluptatem provident error deleniti est quas illo mollitia omnis esse sit nisi quaerat tenetur. Voluptas dolorem soluta doloribus facere dignissimos dolorum nostrum nobis, saepe natus ut quod reprehenderit mollitia aliquid delectus exercitationem, omnis officia fuga?" name="kai po che" />
@@ -61,9 +76,9 @@ function App() {
 
         <Boxes text='kuch to log khenge Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quisquam, esse ratione nobis iusto, quos cupiditate laudantium modi commodi asperiores illo sunt nihil quia? Ab!kuch to log khenge Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quisquam, esse ratione nobis iusto, quos cupiditate laudantium modi commodi asperiores illo sunt nihil quia?' />
       </div> */}
-      <div className="forth">
+      {/* <div className="forth">
         <Footer/>
-      </div>
+      </div> */}
     </div>
   );
 }
